@@ -38,8 +38,8 @@ def decideclick(text):
     guess()
 
 def create():
-    canvas.create_line(45, 0, 45, 90)  # vertical line
-    canvas.create_line(0, 90, 90, 90, width=2)  # horizontal line
+    canvas.create_line(45, 0, 45, 120)  # vertical line
+    canvas.create_line(0, 120, 90, 120, width=2)  # horizontal line
     canvas.create_line(45, 20, 90, 20, width=2)
     canvas.create_line(45, 50, 70, 20, width=2)
     canvas.create_line(90, 40, 90, 20, width=2)
